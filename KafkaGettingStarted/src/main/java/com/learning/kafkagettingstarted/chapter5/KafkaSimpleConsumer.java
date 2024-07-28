@@ -40,6 +40,12 @@ public class KafkaSimpleConsumer {
         //Create a Consumer
         KafkaConsumer<String, String> simpleConsumer =
                 new KafkaConsumer<String,String>(kafkaProps);
+        
+        
+        
+        
+        
+        
 
         //Subscribe to the kafka.learning.orders topic
         simpleConsumer.subscribe(Arrays.asList("kafka.learning.orders"));
